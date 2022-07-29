@@ -51,4 +51,12 @@ public class Main : MonoBehaviour
     {
         SceneManager.LoadScene("_Scene_0");
     }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+    }
 }
